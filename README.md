@@ -1,5 +1,4 @@
 # Similarity-Evaluation-tooling-for-Analysing-XiL-Systems
-Similarity Evaluation tooling for Analysing XiL Systems
 
 The Similarity-Evaluation-tooling-for-Analysing-XiL-Systems is a tooling that enables the comparison of MDF Signal-Logging measurements (.mf4). It supports preprocessing, synchronizing and comparing measurements, using various signal-similarity metrics.
 
