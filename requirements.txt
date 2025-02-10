@@ -1,0 +1,6 @@
+pandas
+numpy
+asammdf
+PySide6
+more-itertools
+scipy
