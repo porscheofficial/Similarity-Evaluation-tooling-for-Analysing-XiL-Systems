@@ -1,0 +1,20 @@
+name: Safety Dependency Scan
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  dependency-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Run Safety GitHub Action
+      uses: pyupio/safety-action@v1
+      with:
+        api-key: ${{secrets.SAFETY_API_KEY}}  # Assuming you've set this in your repository secrets
+        args: --detailed-output
