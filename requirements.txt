@@ -1,0 +1,6 @@
+pandas==2.2.3
+numpy==2.2.3
+asammdf
+PySide6
+more-itertools
+scipy==1.15.2
